@@ -11,29 +11,39 @@ a
     color: black;
 }
 
-header
+body
 {
-    background-color: #f1f1f1;
-    padding: 20px;
-    display: flex;
-    align-items: center;
+    width: 100%;
+    background-color: #F8F8F8;
+    height: 100vh;
 }
 
-.personal-logo
+.intro-container
 {
-    width: 80px;
-    margin-right: 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+
+.headshot
+{
+    border-radius: 1000px;
+    width: 200px;
 }
 
 .title
 {
-    font-family: "Libre Baskerville";
+    font-family: Prata;
     font-weight: 500;
-    color: #333;
+    margin: 20px 0;
 }
 
-main
+.home-button
 {
-    background-color: #F8F8F8;
-    height: 400px;
+    width: 40px;
+    border-radius: 1000px;
 }
