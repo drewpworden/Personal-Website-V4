@@ -8,7 +8,7 @@
 a
 {
     text-decoration: none;
-    color: black;
+    color: #333;
 }
 
 body
@@ -42,6 +42,18 @@ main
     min-height: 100px;
     display: flex;
     flex-direction: column;
+}
+
+.introduction-main
+{
+    margin: 20px;
+    margin-bottom: 40px;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    border: double 5px #333;
+    align-items: center;
+    padding: 20px;
 }
 
 .row
@@ -108,6 +120,8 @@ footer
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 20px;
+    margin-top: -20px;
 }
 
 footer > ul
@@ -121,4 +135,20 @@ footer > ul > li
     font-family: "Pinyon Script";
     font-size: 20px;
     color: #333;
+}
+
+.headshot
+{
+    border-radius: 1000px;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.introduction-par
+{
+    text-align: center;
+    font-family: "Special Elite";
+    font-size: 15pt;
+    color: #333;
+    padding: 10px 50px;
 }
