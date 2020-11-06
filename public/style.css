@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #333;
 }
 
 a
@@ -57,6 +58,16 @@ main
 }
 
 .contact-main
+{
+    margin: 20px;
+    margin-bottom: 40px;
+    min-height: 100px;
+    display: flex;
+    flex-direction: row;
+    border: double 5px #333;
+}
+
+.social-main
 {
     margin: 20px;
     margin-bottom: 40px;
@@ -173,6 +184,15 @@ footer > ul > li
     padding: 10px 50px;
 }
 
+.social-par
+{
+    text-align: center;
+    font-family: "Special Elite";
+    font-size: 15pt;
+    color: #333;
+    padding: 10px 50px;
+}
+
 .contact-image
 {
     width: 600px;
@@ -207,7 +227,7 @@ dt
     margin-top: 15px;
     font-family: "Pinyon Script";
     color: #333;
-    font-size: 17pt;
+    font-size: 20pt;
     margin-bottom: 5px;
     cursor: pointer;
 }
@@ -218,4 +238,44 @@ dd
     color: #333;
     font-size: 15pt;
     cursor: pointer;
+}
+
+.social-logos
+{
+    width: 50px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.social-titles
+{
+    font-family: "Pinyon Script";
+    font-size: 20pt;
+    font-weight: normal;
+    cursor: pointer;
+    color: #333;
+}
+
+.social-desc
+{
+    font-family: "Special Elite";
+    font-size: 15pt;
+    width: 500px;
+    text-align: center;
+}
+
+.social-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-photo
+{
+    width: 500px;
+    height: auto;
+    border-right: 5px double #333;
 }
