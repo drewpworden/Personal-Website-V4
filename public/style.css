@@ -77,6 +77,32 @@ main
     border: double 5px #333;
 }
 
+.bio-main
+{
+    margin: 20px;
+    margin-bottom: 40px;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    border: double 5px #333;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.research-main
+{
+    margin: 20px;
+    margin-bottom: 40px;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    border: double 5px #333;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
 .row
 {
     display: flex;
@@ -199,6 +225,29 @@ footer > ul > li
     border-right: double 5px #333;
 }
 
+.research-image
+{
+    width: 50%;
+    align-self: flex-start;
+}
+
+.research-container
+{
+    border-top: double 5px #333;
+    margin-top: 10px;
+    display: flex;
+}
+
+.research-list-container
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
 .contact-sub-container
 {
     width: 100%;
@@ -271,6 +320,7 @@ dd
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .social-photo
@@ -278,4 +328,31 @@ dd
     width: 500px;
     height: auto;
     border-right: 5px double #333;
+}
+
+.bio-image
+{
+    width: 100%;
+    margin-top: 20px;
+    border-top: double #333 5px;
+    border-bottom: double #333 5px;
+}
+
+.research-title
+{
+    font-family: "Pinyon Script";
+    font-size: 20pt;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.research-par
+{
+    font-family: "Special Elite";
+    font-size: 15pt;
+    text-align: center;
+    margin-bottom: 30px;
+    cursor: pointer;
 }
