@@ -175,7 +175,7 @@ footer > ul > li
 
 .contact-image
 {
-    width: 400px;
+    width: 600px;
     border-right: double 5px #333;
 }
 
@@ -194,4 +194,28 @@ h2
     font-weight: normal;
     font-size: 35px;
     color: #333;
+}
+
+dl
+{
+    text-align: center;
+    padding: 0 200px;
+}
+
+dt
+{
+    margin-top: 15px;
+    font-family: "Pinyon Script";
+    color: #333;
+    font-size: 17pt;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+dd
+{
+    font-family: "Special Elite";
+    color: #333;
+    font-size: 15pt;
+    cursor: pointer;
 }
